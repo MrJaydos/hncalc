@@ -169,3 +169,14 @@ header a:focus-visible {
   /* Offset for sticky header */
   padding-bottom: 4rem;
 }
+
+/* Footer Styling */
+
+footer {
+    display: block;
+    width: 100%;
+    padding: 2rem 24px;
+    background: #f8f8f8;
+    border-top: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
