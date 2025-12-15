@@ -1,15 +1,15 @@
 # HN Calculator
-
+---
 ## Project Goal
 Personal calculator to save time while offering care options. Also using it to up-sell and offer other options inline with the PC pricing. 
 
 ## To Do List
-- Create basic site functionality and navigation  *In Progress*
-- Create PC calculator including the following features
-    - Variable discounting using percentages while also not allowing the discounting to go past certain hard limits in general circumstances.
-    - Added options like Demo Model's, multiple PC's and more.
-    - Displaying the information on a separate page with a back button and reset button for easy navigating. 
-- Create Norton calculator with pricing of both options including small product codes to help finding them in POS
+- [ ] Create basic site functionality and navigation - *In Progress - Currently working on this*
+- [ ] Create PC calculator including the following features
+    - [ ] Variable discounting using percentages while also not allowing the discounting to go past certain hard limits in general circumstances.
+    - [ ] Added options like Demo Model's, multiple PC's and more.
+    - [ ] Displaying the information on a separate page with a back button and reset button for easy navigating. 
+- [ ] Create Norton calculator with pricing of both options including small product codes to help finding them in POS
 
 
 ### Disclaimer
