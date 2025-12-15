@@ -4,7 +4,7 @@
 Personal calculator to save time while offering care options. Also using it to up-sell and offer other options inline with the PC pricing. 
 
 ## To Do List
-- Create basic site functionality and navigation > In Progress
+- Create basic site functionality and navigation  *In Progress*
 - Create PC calculator including the following features
     - Variable discounting using percentages while also not allowing the discounting to go past certain hard limits in general circumstances.
     - Added options like Demo Model's, multiple PC's and more.
