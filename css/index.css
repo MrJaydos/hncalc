@@ -11,3 +11,9 @@
     min-width: 200px;
     font-size: 1rem;
 }
+
+.landing-nav button:hover {
+    background-color: #1a1a1a;
+    transform: translate(-2px);
+    transition: all 0.2s ease;
+}
