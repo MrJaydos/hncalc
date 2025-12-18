@@ -1,14 +1,13 @@
 .landing-nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 80vh;
     gap: 1.5rem;
 }
 
 .landing-nav button {
-    min-width: 200px;
+    min-width: 50%;
     font-size: 1rem;
 }
 
