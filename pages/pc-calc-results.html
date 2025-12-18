@@ -28,7 +28,25 @@
         <h1>Product Care Prices</h1>
       </div>
       <div class="results" id="results">
+        <script>
+            // Load data from local storage
+            const rrp = localStorage.getItem('rrp');
+            const discount = localStorage.getItem('discount');
+            const category = localStorage.getItem('category');
 
+            if (!rrp) {
+                document.getElementById('results').innerHTML = '<p>No data found. Please go back and enter RRP.</p>';
+            } else {
+                const finalPrice = calculateCare(rrp, discount, category);
+
+                document.getElementById('results').innerHTML = `
+                <p><strong>Product RRP: </strong> $${rrp}</p>
+                <p><strong>1 Year Product Care: </strong> $${finalPrice.y1}</p>
+                <p><strong>2 Year Product Care: </strong> $${finalPrice.y2}</p>
+                <p><strong>3 Year Product Care: </strong> $${finalPrice.y3}</p>`;
+                
+            };
+        </script>
       </div>
 
     </main>

@@ -46,5 +46,8 @@ function calculateCare(rrp, discount, category) {
     y1: (typeof care.y1 === 'number') ? Math.max(care.y1 - discount, estimatedCost.y1) : care.y1,
     y2: (typeof care.y2 === 'number') ? Math.max(care.y2 - discount, estimatedCost.y2) : care.y2,
     y3: (typeof care.y3 === 'number') ? Math.max(care.y3 - discount, estimatedCost.y3) : care.y3
-  }
+  };
+
+  return finalPrice;
 }
+
